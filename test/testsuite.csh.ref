@@ -1,0 +1,889 @@
+
+[oval run] =================================================
+[oval run] USER : uberthon
+[oval run] HOST : lxplus009.cern.ch
+[oval run] run tool: scramv1
+[oval run] final instruction: testsuite.csh
+[oval run] =================================================
+
+===================> Step1: executing EDProducer (MixingModule) for -5
+%MSG-i FwkJob:  24-Mar-2006 16:06:22 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:24 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:24 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:06:27 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:28 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+PFN: file:Cum_-5.root
+file:Cum_-5.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:06:28 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for -5
+%MSG-i FwkJob:  24-Mar-2006 16:06:34 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:36 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:36 CET pre-events
+PFN: file:Cum_-5.root
+file:Cum_-5.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:06:39 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr -5 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for -4
+%MSG-i FwkJob:  24-Mar-2006 16:06:48 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:51 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:51 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:06:54 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:06:56 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:06:56 CET pre-events
+PFN: file:Cum_-4.root
+file:Cum_-4.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:06:57 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for -4
+%MSG-i FwkJob:  24-Mar-2006 16:07:02 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:04 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:04 CET pre-events
+PFN: file:Cum_-4.root
+file:Cum_-4.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:07 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr -4 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for -3
+%MSG-i FwkJob:  24-Mar-2006 16:07:15 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:17 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:17 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:20 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:23 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+PFN: file:Cum_-3.root
+file:Cum_-3.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:23 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for -3
+%MSG-i FwkJob:  24-Mar-2006 16:07:30 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:32 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:32 CET pre-events
+PFN: file:Cum_-3.root
+file:Cum_-3.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:35 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr -3 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for -2
+%MSG-i FwkJob:  24-Mar-2006 16:07:44 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:47 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:47 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:53 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:07:58 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:07:58 CET pre-events
+PFN: file:Cum_-2.root
+file:Cum_-2.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:07:59 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for -2
+%MSG-i FwkJob:  24-Mar-2006 16:08:15 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:17 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:17 CET pre-events
+PFN: file:Cum_-2.root
+file:Cum_-2.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:08:22 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr -2 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for -1
+%MSG-i FwkJob:  24-Mar-2006 16:08:29 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:31 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:31 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:08:34 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:08:37 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+PFN: file:Cum_-1.root
+file:Cum_-1.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:08:37 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for -1
+%MSG-i FwkJob:  24-Mar-2006 16:08:44 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:46 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:46 CET pre-events
+PFN: file:Cum_-1.root
+file:Cum_-1.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:08:49 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr -1 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for 0
+%MSG-i FwkJob:  24-Mar-2006 16:08:57 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:08:59 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:08:59 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:02 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:09:04 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:05 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+PFN: file:Cum_0.root
+file:Cum_0.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:05 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for 0
+%MSG-i FwkJob:  24-Mar-2006 16:09:15 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:18 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:18 CET pre-events
+PFN: file:Cum_0.root
+file:Cum_0.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:23 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr 0 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for 1
+%MSG-i FwkJob:  24-Mar-2006 16:09:33 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:36 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:36 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:42 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:09:44 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:44 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:44 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:09:44 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:09:44 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:09:44 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:45 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:45 CET pre-events
+PFN: file:Cum_1.root
+file:Cum_1.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:45 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for 1
+%MSG-i FwkJob:  24-Mar-2006 16:09:53 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:09:55 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:09:55 CET pre-events
+PFN: file:Cum_1.root
+file:Cum_1.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:09:58 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr 1 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for 2
+%MSG-i FwkJob:  24-Mar-2006 16:10:06 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:08 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:08 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:12 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:10:14 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:14 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:14 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:10:14 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:15 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:10:15 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:15 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:15 CET pre-events
+PFN: file:Cum_2.root
+file:Cum_2.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:15 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for 2
+%MSG-i FwkJob:  24-Mar-2006 16:10:22 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:23 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:23 CET pre-events
+PFN: file:Cum_2.root
+file:Cum_2.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:27 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr 2 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step1: executing EDProducer (MixingModule) for 3
+%MSG-i FwkJob:  24-Mar-2006 16:10:34 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:36 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:36 CET pre-events
+PFN: file:data/simevent.root
+file:data/simevent.root   Always Root file version:50800
+file:data/simevent.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:39 CET pre-events
+Input file opened successfully.
+%MSG-i FwkJob:  24-Mar-2006 16:10:41 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:41 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:41 CET pre-events
+PFN: file:data/simevent.root
+%MSG-i FwkJob:  24-Mar-2006 16:10:41 CET pre-events
+Input file opened successfully.
+%MSG-i Constructor:  24-Mar-2006 16:10:41 CET pre-events
+Adding calo container CaloHitsTk for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:41 CET pre-events
+Adding calo container CastorBU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:41 CET pre-events
+Adding calo container CastorFI for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:41 CET pre-events
+Adding calo container CastorPL for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:41 CET pre-events
+Adding calo container CastorTU for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding calo container EcalHitsEB for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding calo container EcalHitsEE for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding calo container EcalHitsES for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding calo container HcalHits for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding simhit container MuonCSCHits,productID  12 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding simhit container MuonDTHits,productID  13 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding simhit container MuonRPCHits,productID  14 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsPixelBarrelLowTof,productID 16 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsPixelEndcapLowTof,productID 18 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsTECLowTof,productID 20 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsTIBLowTof,productID 22 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsTIDLowTof,productID 24 for pileup treatment
+%MSG-i Constructor:  24-Mar-2006 16:10:42 CET pre-events
+Adding container TrackerHitsTOBLowTof,productID 26 for pileup treatment
+%MSG-i FwkJob:  24-Mar-2006 16:10:42 CET pre-events
+WRITE_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:42 CET pre-events
+Output file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:42 CET pre-events
+PFN: file:Cum_3.root
+file:Cum_3.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:42 CET pre-events
+Output file opened successfully.
+===================> Step2: executing EDAnalyser (TestSuite) to create histos for 3
+%MSG-i FwkJob:  24-Mar-2006 16:10:48 CET pre-events
+READ_CATALOG: file:PoolFileCatalog.xml
+%MSG-i FwkJob:  24-Mar-2006 16:10:50 CET pre-events
+Input file is about to be opened.
+%MSG-i FwkJob:  24-Mar-2006 16:10:50 CET pre-events
+PFN: file:Cum_3.root
+file:Cum_3.root   Always Root file version:50800
+%MSG-i FwkJob:  24-Mar-2006 16:10:53 CET pre-events
+Input file opened successfully.
+Constructed testSuite , bunchcr 3 filename: histos.root
+ No signal for subdetector EcalHitsEB
+===================> Step3: rereading histos with root
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version  5.08/00b   24 January 2006   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+FreeType Engine v2.1.9 used to render TrueType fonts.
+Compiled on 24 January 2006 for linux with thread support.
+
+CINT/ROOT C/C++ Interpreter version 5.16.5, November 30 2005
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+Processing testsuite.C...
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing -5
+[OVAL] Mean of track signal histo (bcrossings) -5 for bunchcrossing -5
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing -5
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing -5
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing -5
+[OVAL] Mean of vertex signal histo (bcrossings) -5 for bunchcrossing -5
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing -5
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing -5
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing -5
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing -5
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing -5
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing -5
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing -5
+[OVAL] Mean of Hcal signal histo (ToF) -87.6744, sigma: 0.524735 for bunchcrossing -5
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing -4
+[OVAL] Mean of track signal histo (bcrossings) -4 for bunchcrossing -4
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing -4
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing -4
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing -4
+[OVAL] Mean of vertex signal histo (bcrossings) -4 for bunchcrossing -4
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing -4
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing -4
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing -4
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing -4
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing -4
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing -4
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing -4
+[OVAL] Mean of Hcal signal histo (ToF) -62.6744, sigma: 0.524735 for bunchcrossing -4
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing -3
+[OVAL] Mean of track signal histo (bcrossings) -3 for bunchcrossing -3
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing -3
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing -3
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing -3
+[OVAL] Mean of vertex signal histo (bcrossings) -3 for bunchcrossing -3
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing -3
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing -3
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing -3
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing -3
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing -3
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing -3
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing -3
+[OVAL] Mean of Hcal signal histo (ToF) -37.6744, sigma: 0.524735 for bunchcrossing -3
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing -2
+[OVAL] Mean of track signal histo (bcrossings) -2 for bunchcrossing -2
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing -2
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing -2
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing -2
+[OVAL] Mean of vertex signal histo (bcrossings) -2 for bunchcrossing -2
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing -2
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing -2
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing -2
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing -2
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing -2
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing -2
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing -2
+[OVAL] Mean of Hcal signal histo (ToF) -12.6744, sigma: 0.524735 for bunchcrossing -2
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing -1
+[OVAL] Mean of track signal histo (bcrossings) -1 for bunchcrossing -1
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing -1
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing -1
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing -1
+[OVAL] Mean of vertex signal histo (bcrossings) -1 for bunchcrossing -1
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing -1
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing -1
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing -1
+[OVAL] Mean of tracker signal histo (ToF) -13.9551 for bunchcrossing -1
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing -1
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing -1
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing -1
+[OVAL] Mean of Hcal signal histo (ToF) 12.3256, sigma: 0.524735 for bunchcrossing -1
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing 0
+[OVAL] Mean of track signal histo (bcrossings) 0 for bunchcrossing 0
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing 0
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing 0
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing 0
+[OVAL] Mean of vertex signal histo (bcrossings) 0 for bunchcrossing 0
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing 0
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing 0
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing 0
+[OVAL] Mean of tracker signal histo (ToF) 11.0449 for bunchcrossing 0
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing 0
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing 0
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing 0
+[OVAL] Mean of Hcal signal histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing 0
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing 1
+[OVAL] Mean of track signal histo (bcrossings) 1 for bunchcrossing 1
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing 1
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing 1
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing 1
+[OVAL] Mean of vertex signal histo (bcrossings) 1 for bunchcrossing 1
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing 1
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing 1
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing 1
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing 1
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing 1
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing 1
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing 1
+[OVAL] Mean of Hcal signal histo (ToF) 62.3256, sigma: 0.524735 for bunchcrossing 1
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing 2
+[OVAL] Mean of track signal histo (bcrossings) 2 for bunchcrossing 2
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing 2
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing 2
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing 2
+[OVAL] Mean of vertex signal histo (bcrossings) 2 for bunchcrossing 2
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing 2
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing 2
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing 2
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing 2
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing 2
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing 2
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing 2
+[OVAL] Mean of Hcal signal histo (ToF) 87.3256, sigma: 0.524735 for bunchcrossing 2
+
+[OVAL] Mean of track pileup histo (bcrossings) 0 for bunchcrossing 3
+[OVAL] Mean of track signal histo (bcrossings) 3 for bunchcrossing 3
+[OVAL] Mean of track pileup histo (vtx indices) 49.5 for bunchcrossing 3
+[OVAL] Mean of track signal histo (vtx indices) 49.5 for bunchcrossing 3
+
+[OVAL] Mean of vertex pileup histo (bcrossings) 0 for bunchcrossing 3
+[OVAL] Mean of vertex signal histo (bcrossings) 3 for bunchcrossing 3
+[OVAL] Mean of vertex pileup histo (track indices) 0 for bunchcrossing 3
+[OVAL] Mean of vertex signal histo (track indices) 0 for bunchcrossing 3
+
+[OVAL] Mean of tracker pileup histo (ToF) 11.0449 for bunchcrossing 3
+[OVAL] Mean of tracker signal histo (ToF) 0 for bunchcrossing 3
+
+[OVAL] Mean of Ecal pileup histo (ToF) 0, sigma: 0 for bunchcrossing 3
+[OVAL] Mean of Ecal signal histo (ToF) 0, sigma: 0 for bunchcrossing 3
+
+[OVAL] Mean of Hcal pileup histo (ToF) 37.3256, sigma: 0.524735 for bunchcrossing 3
+[OVAL] Mean of Hcal signal histo (ToF) 112.326, sigma: 0.524735 for bunchcrossing 3
+201.360u 9.910s 4:50.45 72.7%	0+0k 0+0io 197679pf+0w
+
+[oval run] ==========================================
+[oval run] result: OK
+[oval run] ==========================================
+
